@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:text="WLAN"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_compat"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:switchMinWidth="40dp"
+        android:layout_marginRight="10dp"
+        android:typeface="normal" />
+    <!-- 第一行 WLAN button-->
+
+</FrameLayout>
